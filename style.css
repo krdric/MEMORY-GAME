@@ -1,0 +1,24 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
+
+  .rishi{
+    color:black;
+    font-size: 100%;
+    text-align: center;
+    transition: 0.50s;
+    font-family: s;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+
+.rishi:hover{
+    color:red;
+    transform: 0.90s;
+    cursor:grab;
+}
+.rishi:active{
+color: greenyellow}
